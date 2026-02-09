@@ -1,0 +1,25 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-rename-the-website-brand-to-kaninwals-e-commerce-across-the-storefront-ui-and-browser-metadata-replacing-the-existing-globalmart-branding-wherever-it-is-user-visible-e-g-header-brand-text-footer-headings-and-the-html-document-title",
+      "featureTitle": "Rename the website brand to \"Kaninwals E Commerce\" across the storefront UI and browser metadata, replacing the existing \"GlobalMart\" branding wherever it is user-visible (e.g., header brand text, footer headings, and the HTML document <title>).",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/layout/StoreLayout.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

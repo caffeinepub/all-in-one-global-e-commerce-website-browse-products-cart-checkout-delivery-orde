@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build an all-in-one global e-commerce website where users can browse and buy products from around the world with online ordering and delivery through a single site.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-customer-facing-e-commerce-web-app-that-lets-users-browse-a-global-product-catalog-from-a-single-site-including-home-page-category-listing-search-product-detail-pages-and-the-ability-to-add-remove-items-to-a-cart",
+      "title": "Create a customer-facing e-commerce web app that lets users browse a global product catalog from a single site, including: home page, category listing, search, product detail pages, and the ability to add/remove items to a cart.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-basic-checkout-flow-to-place-an-order-for-delivery-collecting-a-delivery-address-and-contact-details-and-creating-an-order-record-that-can-be-viewed-later",
+      "title": "Implement a basic checkout flow to place an order for delivery, collecting a delivery address and contact details, and creating an order record that can be viewed later.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-internet-identity-login-and-associate-orders-with-the-authenticated-principal-so-each-user-only-sees-their-own-order-history",
+      "title": "Add Internet Identity login and associate orders with the authenticated principal so each user only sees their own order history.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-admin-only-section-restricted-to-a-configurable-allowlist-of-principals-in-the-backend-to-manage-the-product-catalog-create-update-delete-products-set-price-stock-category-and-images",
+      "title": "Create an admin-only section (restricted to a configurable allowlist of principals in the backend) to manage the product catalog: create/update/delete products, set price, stock, category, and images.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-coherent-distinctive-visual-theme-across-the-entire-frontend-colors-typography-spacing-and-component-styling-suitable-for-a-modern-marketplace-keep-all-user-facing-ui-text-in-english",
+      "title": "Apply a coherent, distinctive visual theme across the entire frontend (colors, typography, spacing, and component styling) suitable for a modern marketplace; keep all user-facing UI text in English.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-and-include-seed-data-so-the-storefront-is-usable-immediately-after-deploy-sample-categories-and-at-least-20-products-spanning-multiple-categories-with-images",
+      "title": "Generate and include seed data so the storefront is usable immediately after deploy (sample categories and at least 20 products spanning multiple categories, with images).",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-rename-the-website-brand-to-kaninwals-e-commerce-across-the-storefront-ui-and-browser-metadata-replacing-the-existing-globalmart-branding-wherever-it-is-user-visible-e-g-header-brand-text-footer-headings-and-the-html-document-title",
+      "title": "Rename the website brand to \"Kaninwals E Commerce\" across the storefront UI and browser metadata, replacing the existing \"GlobalMart\" branding wherever it is user-visible (e.g., header brand text, footer headings, and the HTML document <title>).",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "All-in-one global e-commerce website for worldwide products with online ordering and delivery",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add product and order persistence in the Motoko backend (single actor), including stable storage for products, carts (if stored server-side), and orders.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Rename the website to \"Kaninwals E Commerce\" and provide a complete set-up/deployed website deliverable",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Kaninwals E Commerce",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "build_request",
+  "title": "Rename storefront branding to Kaninwals E Commerce",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "text": "Rename the website brand to \"Kaninwals E Commerce\" across the storefront UI and browser metadata, replacing the existing \"GlobalMart\" branding wherever it is user-visible (e.g., header brand text, footer headings, and the HTML document <title>).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4",
+          "msg-8"
+        ],
+        "quotes": [
+          "or website ka name kaninwals e commerce krdo",
+          "Website dedo"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Header brand text in StoreLayout shows \"Kaninwals E Commerce\" instead of \"GlobalMart\".",
+        "Footer text that currently says \"About GlobalMart\" is updated to \"About Kaninwals E Commerce\".",
+        "frontend/index.html <title> is updated to include \"Kaninwals E Commerce\" (and no longer uses the generic template title).",
+        "No user-facing UI text is introduced in a language other than English.",
+        "The app builds successfully and the home page loads without runtime errors after the branding changes."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit any files under frontend/src/components/ui (Shadcn components are read-only).",
+    "Do not edit files listed in frontend.immutablePaths (compose around them instead).",
+    "Backend remains a single Motoko actor; do not introduce additional backend services or external databases."
+  ],
+  "nonGoals": [
+    "Adding new e-commerce features beyond the existing catalog/cart/checkout/orders/admin capabilities.",
+    "Integrating third-party authentication providers other than Internet Identity.",
+    "External deployment/hosting configuration outside of the Caffeine/Internet Computer project build output."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

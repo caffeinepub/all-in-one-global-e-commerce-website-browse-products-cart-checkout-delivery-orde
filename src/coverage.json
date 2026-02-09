@@ -1,0 +1,41 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-09T04:20:56.471Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-8",
+        "summary": "Rename the website brand to \"Kaninwals E Commerce\" across the storefront UI and browser metadata, replacing the existing \"GlobalMart\" branding wherever it is user-visible (e.g., header brand text, footer headings, and the HTML document <title>).",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/layout/StoreLayout.tsx",
+          "frontend/index.html"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/layout/StoreLayout.tsx",
+          "frontend/index.html"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/src/components/layout/StoreLayout.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

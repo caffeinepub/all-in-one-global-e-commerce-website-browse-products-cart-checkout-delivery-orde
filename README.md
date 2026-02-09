@@ -1,2 +1,3 @@
-# all-in-one-global-e-commerce-website-browse-products-cart-checkout-delivery-orde
-Exported from Caffeine project: Kaninwals E Commerce
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`
